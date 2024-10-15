@@ -12,7 +12,7 @@ from langchain_core.prompts.prompt import PromptTemplate
 from langchain_google_genai import GoogleGenerativeAI
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates", static_folder="static")
 
 load_dotenv(dotenv_path="\\.env")
 
@@ -43,11 +43,6 @@ def Error404(e):
 @app.errorhandler(503)
 def Error503(e):
 	return render_template("403.html"), 503
-
-
-@app.errorhandler(405)
-def Error405(e):
-	return render_template("405.html"), 405
 
 
 @app.route(rule='/uploads', methods=['POST'])
