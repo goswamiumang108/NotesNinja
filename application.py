@@ -42,7 +42,7 @@ def Error404(e):
 
 @app.errorhandler(503)
 def Error503(e):
-	return render_template("403.html"), 503
+	return render_template("503.html"), 503
 
 
 @app.route(rule='/uploads', methods=['POST'])
@@ -125,5 +125,5 @@ def ReturnTheGeneratedNotes():
 
 
 if __name__ == '__main__':
-	app.run(host="0.0.0.0", port=8000, debug=False)
+	app.run(host="0.0.0.0", debug=True, load_dotenv=True)
 	CORS(app)
