@@ -13,4 +13,4 @@ By utilizing our web application, students can experience personalized learning,
 Thanks,
 [@goswamiumang108](https://github.com/goswamiumang108/)
 
-Email: [go.umang108@gmail.com](mailto:go.umang108@gmail.com)
+Email: [go.umang108@gmail.com](mailto:go.umang108@gmail.com) , [goswamiumang108@outlook.com](mailto:goswamiumang108@outlook.com)
