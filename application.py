@@ -125,5 +125,5 @@ def ReturnTheGeneratedNotes():
 
 
 if __name__ == '__main__':
-	app.run(host="0.0.0.0", debug=True, load_dotenv=True)
+	app.run(host="0.0.0.0", debug=False, load_dotenv=True)
 	CORS(app)
