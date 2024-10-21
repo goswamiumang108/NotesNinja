@@ -1,0 +1,8 @@
+/venv/
+/.venv/
+/.idea/
+.env
+/.git/
+/uploads/
+/generated-notes/
+/__pycache__/
